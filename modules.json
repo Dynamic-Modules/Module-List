@@ -2,6 +2,38 @@
   "$schema": "./schema.json",
   "registry_version": 1,
   "modules": {
+    "dynamic-dm": {
+      "name": "Dynamic DM",
+      "repo": "https://github.com/Dynamic-Modules/Dynamic-DM.git",
+      "default_branch": "main",
+      "description": "DM-side prepare metadata and future dynamic DM integration support.",
+      "compat": [
+        "tgstation"
+      ],
+      "latest_version": "0.1.0",
+      "module_api": "1",
+      "tags": [
+        "dm",
+        "build",
+        "framework"
+      ]
+    },
+    "dynamic-assets": {
+      "name": "Dynamic Assets",
+      "repo": "https://github.com/Dynamic-Modules/Dynamic-Assets.git",
+      "default_branch": "main",
+      "description": "Asset-side prepare metadata and future dynamic asset integration support.",
+      "compat": [
+        "tgstation"
+      ],
+      "latest_version": "0.1.0",
+      "module_api": "1",
+      "tags": [
+        "assets",
+        "build",
+        "framework"
+      ]
+    },
     "dynamic-tgui": {
       "name": "Dynamic TGUI",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-TGUI.git",
