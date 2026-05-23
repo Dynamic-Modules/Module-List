@@ -18,6 +18,7 @@ REQUIRED_MODULE_FIELDS = {
     "tags": list,
 }
 SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z_.-]+)?$")
+COMMIT_RE = re.compile(r"^[0-9a-f]{40}$")
 
 
 def main() -> int:
@@ -61,6 +62,10 @@ def validate_module(module_id: str, entry: object, errors: list[str]) -> None:
     version = entry.get("latest_version")
     if isinstance(version, str) and not SEMVER_RE.match(version):
         errors.append(f"{module_id}: latest_version must be semantic version text")
+
+    commit = entry.get("commit")
+    if commit is not None and (not isinstance(commit, str) or not COMMIT_RE.match(commit)):
+        errors.append(f"{module_id}: commit must be a full 40-character lowercase Git hash")
 
     compat = entry.get("compat")
     if isinstance(compat, list) and not all(isinstance(item, str) and item for item in compat):

@@ -6,6 +6,7 @@
       "name": "Dynamic DM",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-DM.git",
       "default_branch": "main",
+      "commit": "9287dc411e90565cce53f8300d39d141b5447fe2",
       "description": "DM-side prepare metadata and dynamic patch conversion support.",
       "compat": [
         "tgstation"
@@ -22,6 +23,7 @@
       "name": "Dynamic Assets",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-Assets.git",
       "default_branch": "main",
+      "commit": "7ee83327d1993cf219b4f607c568d7873d372eb1",
       "description": "Asset-side prepare metadata and dynamic asset contribution indexing support.",
       "compat": [
         "tgstation"
@@ -38,6 +40,7 @@
       "name": "Dynamic TGUI",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-TGUI.git",
       "default_branch": "main",
+      "commit": "610e231424805d56e8c3921de6bd3aa27215f513",
       "description": "Build-time tgui overlay support for Dynamic SS13 Modules.",
       "compat": [
         "tgstation"
@@ -54,6 +57,7 @@
       "name": "Contraband Warning",
       "repo": "https://github.com/CatoChristopherMrow/contraband-warning.git",
       "default_branch": "main",
+      "commit": "f54225455fe71599b2a0b0db5b19d26c6629316b",
       "description": "Marks configured items as contraband and shows examine warnings.",
       "compat": [
         "tgstation"
@@ -70,6 +74,7 @@
       "name": "Example Dynamic Module",
       "repo": "https://github.com/CatoChristopherMrow/Example-Dynamic-SS13-Module.git",
       "default_branch": "main",
+      "commit": "58a02ea333ef8b259aae947841312dafa24da1d0",
       "description": "Small example module used for Dynamic SS13 Modules testing.",
       "compat": [
         "tgstation"

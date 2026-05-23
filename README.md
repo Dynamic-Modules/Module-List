@@ -20,6 +20,8 @@ dynamic-modules module add contraband-warning
 
 The registry is intentionally metadata-only. Each module still owns its source,
 manifest, dependencies, config, and versioning policy in its own repository.
+Published 1.0 entries include exact commit pins so `dynamic-modules module add`
+installs a known-good release snapshot.
 
 ## Validation
 
