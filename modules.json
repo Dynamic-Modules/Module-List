@@ -6,11 +6,11 @@
       "name": "Dynamic DM",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-DM.git",
       "default_branch": "main",
-      "description": "DM-side prepare metadata and future dynamic DM integration support.",
+      "description": "DM-side prepare metadata and dynamic patch conversion support.",
       "compat": [
         "tgstation"
       ],
-      "latest_version": "0.1.0",
+      "latest_version": "1.0.0",
       "module_api": "1",
       "tags": [
         "dm",
@@ -22,11 +22,11 @@
       "name": "Dynamic Assets",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-Assets.git",
       "default_branch": "main",
-      "description": "Asset-side prepare metadata and future dynamic asset integration support.",
+      "description": "Asset-side prepare metadata and dynamic asset contribution indexing support.",
       "compat": [
         "tgstation"
       ],
-      "latest_version": "0.1.0",
+      "latest_version": "1.0.0",
       "module_api": "1",
       "tags": [
         "assets",

@@ -20,3 +20,12 @@ dynamic-modules module add contraband-warning
 
 The registry is intentionally metadata-only. Each module still owns its source,
 manifest, dependencies, config, and versioning policy in its own repository.
+
+## Validation
+
+Before updating the hosted registry, validate the JSON files:
+
+```bash
+python3 -m json.tool modules.json
+python3 -m json.tool schema.json
+```
