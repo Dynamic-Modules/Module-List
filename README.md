@@ -28,4 +28,5 @@ Before updating the hosted registry, validate the JSON files:
 ```bash
 python3 -m json.tool modules.json
 python3 -m json.tool schema.json
+python3 scripts/validate_registry.py
 ```

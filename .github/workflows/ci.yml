@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate JSON syntax
+        run: |
+          python3 -m json.tool modules.json >/tmp/dynamic-modules-registry.json
+          python3 -m json.tool schema.json >/tmp/dynamic-modules-registry-schema.json
+      - name: Validate registry metadata
+        run: python3 scripts/validate_registry.py

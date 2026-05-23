@@ -3,8 +3,10 @@
   "title": "Dynamic Modules Registry",
   "type": "object",
   "required": [
+    "registry_version",
     "modules"
   ],
+  "additionalProperties": false,
   "properties": {
     "registry_version": {
       "type": "integer",
@@ -16,8 +18,15 @@
         "type": "object",
         "required": [
           "name",
-          "repo"
+          "repo",
+          "default_branch",
+          "description",
+          "compat",
+          "latest_version",
+          "module_api",
+          "tags"
         ],
+        "additionalProperties": false,
         "properties": {
           "name": {
             "type": "string"
