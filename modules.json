@@ -6,12 +6,12 @@
       "name": "Dynamic DM",
       "repo": "https://github.com/Dynamic-Modules/Dynamic-DM.git",
       "default_branch": "main",
-      "commit": "9287dc411e90565cce53f8300d39d141b5447fe2",
-      "description": "DM-side prepare metadata and dynamic patch conversion support.",
+      "commit": "462b35b9b38784f6de919ae4687a118144b6957f",
+      "description": "DM-side prepare metadata and semantic dynamic patch conversion support.",
       "compat": [
         "tgstation"
       ],
-      "latest_version": "1.0.0",
+      "latest_version": "1.1.0",
       "module_api": "1",
       "tags": [
         "dm",
