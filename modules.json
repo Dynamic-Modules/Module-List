@@ -1,0 +1,53 @@
+{
+  "$schema": "./schema.json",
+  "registry_version": 1,
+  "modules": {
+    "dynamic-tgui": {
+      "name": "Dynamic TGUI",
+      "repo": "https://github.com/Dynamic-Modules/Dynamic-TGUI.git",
+      "default_branch": "main",
+      "description": "Build-time tgui overlay support for Dynamic SS13 Modules.",
+      "compat": [
+        "tgstation"
+      ],
+      "latest_version": "1.0.0",
+      "module_api": "1",
+      "tags": [
+        "tgui",
+        "build",
+        "framework"
+      ]
+    },
+    "contraband-warning": {
+      "name": "Contraband Warning",
+      "repo": "https://github.com/CatoChristopherMrow/contraband-warning.git",
+      "default_branch": "main",
+      "description": "Marks configured items as contraband and shows examine warnings.",
+      "compat": [
+        "tgstation"
+      ],
+      "latest_version": "1.0.0",
+      "module_api": "1",
+      "tags": [
+        "items",
+        "examine",
+        "security"
+      ]
+    },
+    "example-dynamic-module": {
+      "name": "Example Dynamic Module",
+      "repo": "https://github.com/CatoChristopherMrow/Example-Dynamic-SS13-Module.git",
+      "default_branch": "main",
+      "description": "Small example module used for Dynamic SS13 Modules testing.",
+      "compat": [
+        "tgstation"
+      ],
+      "latest_version": "1.0.0",
+      "module_api": "1",
+      "tags": [
+        "example",
+        "testing"
+      ]
+    }
+  }
+}
